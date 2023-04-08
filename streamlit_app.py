@@ -14,7 +14,11 @@ def add_bg_from_local(image_file):
     <style>
     .stApp {{
         background-image: url(data:image/{"png"};base64,{encoded_string.decode()});
-        background-size: cover
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-size:width: 1920px;
+          background-size:height: 1080px;
     }}
     </style>
     """,
