@@ -85,8 +85,8 @@ if st.button('Predict Probability'):
     win = result[0][1]
     st.header(batting_team + "- " + str(round(win*100)) + "%")
     st.header(bowling_team + "- " + str(round(loss*100)) + "%")
-        if st.button("About"):
-            st.text("It is created our team ")
-            st.text("Built with Streamlit")
+if st.button("About"):
+   st.text("It is created our team ")
+   st.text("Built with Streamlit")
 if __name__=='__main__':
     main()
