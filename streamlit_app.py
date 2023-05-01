@@ -88,4 +88,5 @@ if st.button('Predict Probability'):
         if st.button("About"):
             st.text("It is created our team ")
             st.text("Built with Streamlit")
-
+if __name__=='__main__':
+    main()
